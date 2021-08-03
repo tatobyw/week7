@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content::before{
+    content: 'Hello';
+    display: block;
+    width: 10px;
+    height: 10px;    
+    background-color: red;
+}
+
+.content::after{
+    content: 'World';
+    display: block;
+    width: 10px;
+    height: 10px;    
+    background-color: blue;
+}
